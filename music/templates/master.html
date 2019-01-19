@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{% block 'title' %} {% endblock %}</title>
+	{% load staticfiles %}
+	<link rel="stylesheet" type="text/css" href="{% static 'music/style.css' %}"/>
+</head>
+<body>
+<h3>master</h3>
+<i>Mast bro</i>
+{% block 'body' %} {% endblock %}
+</body>
+</html>
